@@ -28,6 +28,10 @@ public class Customer {
         return customerId;
     }
 
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
+    }
+
     public String getMobile() {
         return mobile;
     }

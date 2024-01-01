@@ -23,6 +23,10 @@ public class Admin {
         return adminId;
     }
 
+    public void setAdminId(int adminId) {
+        this.adminId = adminId;
+    }
+
     public String getUserName() {
         return userName;
     }
