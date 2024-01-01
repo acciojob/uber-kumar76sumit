@@ -49,7 +49,7 @@ public class CustomerServiceImpl implements CustomerService {
 		int min=Integer.MAX_VALUE;
 		for(Driver driver1:driverRepository2.findAll()) {
 			cab=driver1.getCab();
-			if(cab.isAvailable()) {
+			if(cab.getAvailable()) {
 				if(driver1.getDriverId()<min) {
 					driver=driver1;
 					min=driver1.getDriverId();
